@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+header,
+footer {
+    color: white;
+    background-color: #343a40;
+    padding: 20px;
+}
+header{
+    margin-bottom: 20px;
+}
+
+ img {
+    max-width: 400px;
+}
+main{
+    background-color: #f8f9fa;
+    margin: 20px 0;
+    padding-top: 40px;
+  padding: 20px 30px;
+}
+
+ section .main-title{
+   
+    width: 200px;
+   height: 50px;
+   line-height: 50px;
+    background-color: rgb(31, 159, 176);
+    color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 auto;
+    
+    
+ }
+
+  article.card {
+ border: 2px solid black;
+ width: 200px;
+ height: 220px;
+ margin:  30px;
+ display: grid;
+ display: inline-block;
+
+
+ } 
+  .lesson-title {
+    color: aliceblue;
+    background-color: #55595c;
+    height: 100px;
+    padding-top: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+ } 
+
+ .notes {
+    margin: 20px;
+ }
+
+  .dateils {
+    text-decoration: none;
+    color: #f8f9fa;
+    background-color: rgba(222, 37, 27, 0.556);
+    margin: 10px 0;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+ } 
+
+ .dateils:hover{
+    background-color: black;
+ }
+footer {
+    margin-bottom: 0;
+}
+ 
